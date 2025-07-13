@@ -10,7 +10,7 @@ const app = express();
 
 // ✅ CORS Configuration
 app.use(cors({
-  origin: ['https://rosario-car-rentals.onrender.com', 'http://localhost:5173', 'http://localhost:5175'],
+  origin: ['https://rosario-car-rentals.onrender.com'],
   credentials: true,
 }));
 
